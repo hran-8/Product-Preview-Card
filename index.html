@@ -15,40 +15,36 @@
 
 <body>
 
-  <div class="container">
-    <img class="perfume-img" src="./images/image-product-desktop.jpg" alt="Gabrielle Chanel Paris Perfume Bottle" /> 
-
-    <div class="content">
-      <header>
-            <span class="short-header montserrat">PERFUME</span>
-            <h1 class="main-header fraunces">Gabrielle Essence Eau De Parfum</h1>      
-          </header>
-
-          <main>
-          <p class="description montserrat">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-          Perfumer-Creator for the House of CHANEL.</p>
-
-          <div class="prices">
-            <span class="main-price fraunces">$149.99</span>
-            <span class="strikethrough montserrat">$169.99</span>  
-          </div>
-
-          <button class="ATC montserrat" type="submit"><i><img src="./images/icon-cart.svg" alt="cart icon" /></i>Add to Cart</button>
-
-          </main>        
-    </div>
-    
-  </div>
   
- 
+<div class="container">
+  <img class="main-img" 
+       src= "./images/image-product-mobile.jpg"
+       srcset= "./images/image-product-mobile.jpg 375w, 
+                ./images/image-product-desktop.jpg 1440w" 
+       alt="perfume bottle" />
+    <div class="text-content">
+      
+      <span class="montserrat sub-heading small-text grayish-blue">PERFUME</span>
+
+      <h1 class="fraunces dark-blue">Gabrielle Essence Eau De Parfum</h1>
+
+      <p class="montserrat medium-text description grayish-blue">A floral, solar and voluptuous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+
+      <div class="prices"><span class="fraunces dark-cyan final-price">$149.99</span><span class="montserrat small-text grayish-blue mkdown-price">$169.99</span></div>
+
+      <button class="medium-text" type="submit"><img class="icon" src="./images/icon-cart.svg" alt="cart icon" /><span class="button-text">Add to Cart</span></button>    
+    </div>  
+</div>
+
+
+  
   
 
   <footer>
-    <!-- DELETE THIS COMMENT AND REMOVE THE COMMENT FROM THE BELOW ONCE PROJECT IS DONE -->
-    <!-- <div class="attribution">
+    <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a target="_blank" href="https://www.frontendmentor.io/profile/hran-8">Heyran Lee</a>.
-    </div> -->    
+      Coded by <a target="_blank" href="https://www.frontendmentor.io/profile/hran-8">H.L.</a>.
+    </div> 
   </footer>
 
 </body>  

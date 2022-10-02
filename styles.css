@@ -2,12 +2,15 @@
 .attribution a { color: hsl(228, 45%, 44%); }
 
 * {
-  /* border: 1px solid black; */
+  /* border: 1px solid red; */
   box-sizing: border-box;
 }
 
+/* fonts */
 .montserrat {
   font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+
 }
 
 .fraunces {
@@ -15,93 +18,135 @@
   font-weight: 700;
 }
 
-body {
-  font-size: 14px;
-  font-weight: 500;
-  background-color: hsl(30, 38%, 92%);
-  margin: 10% 0;
-  overflow: hidden;
+/* font-size */
+.small-text {
+  font-size: 0.9em
 }
 
-.main-header {
+.medium-text {
+  font-size: 1em;
+}
+
+/* font-colors */
+.dark-blue {
   color: hsl(212, 21%, 14%);
-  font-size: 6rem;
-  margin: 2.5rem 0;
-  line-height: 6.5rem;
 }
 
-.short-header {
+.grayish-blue {
   color: hsl(228, 12%, 48%);
-  font-size: 2rem;
-  letter-spacing: 0.7rem;
+}
+
+.dark-cyan {
+  color: hsl(158, 36%, 37%);
+}
+
+
+body {
+  margin: 0;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.main-img {
+  max-width: 100%;
+  display: block;
+  border-radius: 10px 10px 0 0;
+}
+
+.icon {
+  width: 1.1rem;
+  position: absolute;
+  left: 30%;
+}
+
+.button-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700; 
+  color: white;
+  position: relative;
+  left: 15%;
+}
+
+button {
+  background-color: hsl(158, 36%, 37%);
+  border: 0;
+  min-width: 100%;
+  padding: 1rem 5rem;
+  border-radius: 10px;
+  position: relative;
+}
+
+/* active states of button */
+button:hover, button:focus {
+  background-color: hsl(156, 42%, 18%);
+}
+
+.text-content {
+  padding: 1.3rem;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 2.2rem;
+  margin: 0.9rem 0;
 }
 
 .description {
-  color: hsl(228, 12%, 48%);
-  font-size: 2.1rem;
-  line-height: 4rem;
-  margin: 0;
-  
+  line-height: 1.7rem;
+  margin: 1rem 0;
 }
 
-.strikethrough {
-  color: hsl(228, 12%, 48%);
-  font-size: 2.1rem;
-  text-decoration: line-through;
-  display: inline-block;
-  vertical-align: center;
-  margin: 1em;
-  padding: 1.2rem;
+.sub-heading {
+  letter-spacing: 0.35rem;
 }
 
 .prices {
-  vertical-align: center;
-  padding: 4rem 0;
+  margin: 1.2rem 0;
 }
 
-.main-price {
-  color: hsl(158, 36%, 37%);
-  font-size: 5.7rem;
+.final-price {
+  font-size: 2.1em;
 }
 
-.ATC {
-  color: hsl(0, 0%, 100%);
-  background-color: hsl(158, 36%, 37%);
-  border: none;
-  border-radius: 20px;
-  min-width: 100%;
-  font-size: 2rem;
-  padding: 2.5rem 4rem;
-  vertical-align: center;
-
-}
-
-i img {
-  width: 10%;
-  display: inline-block;
-  margin: 0 2rem;
-  vertical-align: bottom;
-  
-
+.mkdown-price {
+  vertical-align: 40%;
+  margin: 0 1.5rem;
+  text-decoration: line-through;
 }
 
 .container {
-  width: 1440px;
+  max-width: 93%;
+  margin: 7% auto;
   background-color: hsl(0, 0%, 100%);
-  display: flex;
-  justify-content: center;
-  margin: auto;
-  border-radius: 20px;
+  border-radius: 10px;
+}
+
+.attribution {
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    display: flex;
+    object-fit: cover;
+    max-width: 45%;
+    margin: 10rem auto;
+  }
+
+  .main-img {
+    border-radius: 10px 0 0 10px;
+    max-width: 50%;
+  }
+
+  .text-content {
+    max-width: 50%;
+    padding: 2rem;
+    font-size: 1em;
+  }
+
+  .prices {
+    margin: 1.75rem 0;
+  }
+
 
   
-}
-
-.content {
-  padding: 6rem 5rem;
-  width: 50%;
-}
-
-.perfume-img {
-  width: 50%;
-  border-radius: 20px 0 0 20px;
 }
