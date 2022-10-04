@@ -29,7 +29,6 @@ Users should be able to:
 ### Screenshot
 
 ![](./preview/desktop.png)
-![](./preview/mobile.png)
 
 
 ### Links
@@ -63,5 +62,5 @@ I still struggle with responsiveness; my website breaks when the viewport width 
 ## Author
 
 - Website - [H.L.] (no website yet)
-- Frontend Mentor - [@hran](https://www.frontendmentor.io/profile/hran-8)
+- Frontend Mentor - [@hran-8](https://www.frontendmentor.io/profile/hran-8)
 - Twitter - [@hran_8](https://www.twitter.com/hran_8)
